@@ -4,7 +4,7 @@ import Debug "mo:base/Debug";
 import Iter "mo:base/Iter";
 
 actor Token {
-    Debug.print("Hello");
+    
     var owner: Principal = Principal.fromText("orka3-65h47-yhxa5-cftwv-dkray-pyjs4-h7ibp-7bc2s-tzh7m-h7i5d-fae");
     var totalSupply: Nat = 1000000000;
     var symbol: Text = "BST";
